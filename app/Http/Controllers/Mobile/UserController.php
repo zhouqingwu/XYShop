@@ -12,6 +12,7 @@ use App\Models\User\Consume;
 use App\Models\User\SignLog;
 use App\Models\User\User;
 use Illuminate\Http\Request;
+use App\Http\Requests\User\UserCardRequest;
 use Validator;
 
 class UserController extends Controller
